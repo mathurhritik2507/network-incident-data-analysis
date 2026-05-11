@@ -1,0 +1,5 @@
+severity,incident_count,avg_resolution_time_minutes
+Critical,15,309.53
+High,30,185.33
+Low,44,36.36
+Medium,61,84.39

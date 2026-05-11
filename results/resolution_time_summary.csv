@@ -1,0 +1,28 @@
+issue_category,severity,incident_count,avg_resolution_time_minutes
+Application Connectivity,Critical,3,356.67
+Application Connectivity,High,4,206.0
+Application Connectivity,Low,3,36.67
+Application Connectivity,Medium,10,76.2
+Authentication Failure,Critical,3,192.67
+Authentication Failure,High,8,181.5
+Authentication Failure,Low,3,37.0
+Authentication Failure,Medium,9,84.22
+Firewall Block,Critical,3,381.33
+Firewall Block,High,2,216.0
+Firewall Block,Low,11,35.27
+Firewall Block,Medium,9,79.0
+Latency,Critical,3,320.33
+Latency,High,3,168.0
+Latency,Low,7,37.14
+Latency,Medium,11,90.45
+Packet Loss,Critical,2,295.5
+Packet Loss,High,5,170.4
+Packet Loss,Low,7,32.57
+Packet Loss,Medium,11,88.55
+Routing Issue,High,3,201.67
+Routing Issue,Low,5,40.6
+Routing Issue,Medium,4,86.75
+VPN Failure,Critical,1,299.0
+VPN Failure,High,5,178.2
+VPN Failure,Low,8,37.5
+VPN Failure,Medium,7,85.86

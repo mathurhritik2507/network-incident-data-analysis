@@ -1,0 +1,151 @@
+incident_id,date,device_type,issue_category,severity,resolution_time_minutes,status,root_cause,region,assigned_team
+INC-0001,2025-04-16 17:06,Router,Latency,Critical,290,Escalated,Policy Misconfiguration,APAC,Security Operations
+INC-0002,2025-02-23 02:15,VPN Gateway,VPN Failure,Low,36,Resolved,ACL Rule Conflict,US-East,Network Operations
+INC-0003,2025-03-16 12:03,Firewall,Firewall Block,Medium,78,Resolved,Policy Misconfiguration,APAC,Security Operations
+INC-0004,2025-03-11 03:36,Router,Latency,Medium,81,Escalated,User Authentication Error,US-East,Security Operations
+INC-0005,2025-03-21 06:31,Proxy,Latency,Low,32,Escalated,ACL Rule Conflict,India,Application Support
+INC-0006,2025-02-16 09:15,VPN Gateway,Authentication Failure,Critical,212,Resolved,Expired Certificate,APAC,Cloud Operations
+INC-0007,2025-03-19 02:07,Load Balancer,Authentication Failure,Medium,72,Closed,User Authentication Error,India,Security Operations
+INC-0008,2025-03-27 02:48,Load Balancer,Packet Loss,Medium,104,Escalated,Routing Table Issue,India,Cloud Operations
+INC-0009,2025-01-12 08:30,Proxy,Authentication Failure,Medium,87,Resolved,Policy Misconfiguration,India,Application Support
+INC-0010,2025-04-24 21:22,Firewall,Latency,High,163,Closed,Routing Table Issue,US-West,Network Operations
+INC-0011,2025-02-01 12:25,Switch,Packet Loss,Low,35,Resolved,User Authentication Error,Europe,Application Support
+INC-0012,2025-01-18 13:55,Load Balancer,Authentication Failure,Medium,73,Resolved,ACL Rule Conflict,India,Application Support
+INC-0013,2025-01-30 00:31,Firewall,Firewall Block,Low,37,Escalated,User Authentication Error,India,Cloud Operations
+INC-0014,2025-03-10 11:39,VPN Gateway,VPN Failure,Low,40,Escalated,Routing Table Issue,US-West,Network Operations
+INC-0015,2025-04-13 17:25,Switch,Packet Loss,High,197,Closed,ACL Rule Conflict,US-East,Application Support
+INC-0016,2025-01-25 02:13,Switch,Application Connectivity,Medium,42,Resolved,Expired Certificate,India,Network Operations
+INC-0017,2025-02-16 19:01,VPN Gateway,VPN Failure,Low,37,Resolved,ISP Issue,APAC,Application Support
+INC-0018,2025-02-14 19:23,Firewall,Firewall Block,Medium,92,Closed,Expired Certificate,US-East,Application Support
+INC-0019,2025-04-06 10:47,Router,Packet Loss,Medium,80,Closed,User Authentication Error,APAC,Network Operations
+INC-0020,2025-03-09 11:09,Firewall,Firewall Block,Critical,350,Escalated,Policy Misconfiguration,APAC,Cloud Operations
+INC-0021,2025-02-16 05:22,VPN Gateway,Application Connectivity,High,168,Escalated,Routing Table Issue,US-West,Security Operations
+INC-0022,2025-02-21 23:51,VPN Gateway,Routing Issue,Low,28,Resolved,Application Port Blocked,India,Network Operations
+INC-0023,2025-03-19 11:28,VPN Gateway,VPN Failure,High,150,Resolved,Routing Table Issue,US-East,Security Operations
+INC-0024,2025-01-26 10:13,VPN Gateway,VPN Failure,Low,35,Closed,Policy Misconfiguration,Europe,Cloud Operations
+INC-0025,2025-02-19 22:48,VPN Gateway,Routing Issue,Medium,90,Closed,User Authentication Error,Europe,Cloud Operations
+INC-0026,2025-04-03 12:29,VPN Gateway,VPN Failure,High,160,Closed,Expired Certificate,US-West,Security Operations
+INC-0027,2025-03-25 04:39,Firewall,Firewall Block,Low,26,Escalated,Application Port Blocked,India,Security Operations
+INC-0028,2025-01-03 00:51,Proxy,Authentication Failure,Medium,72,Resolved,User Authentication Error,Europe,Security Operations
+INC-0029,2025-03-06 07:48,Load Balancer,Routing Issue,High,210,Resolved,Device Resource Utilization,APAC,Application Support
+INC-0030,2025-04-27 23:22,Switch,Routing Issue,Low,36,Escalated,ACL Rule Conflict,APAC,Security Operations
+INC-0031,2025-04-10 05:38,Firewall,Authentication Failure,Low,17,Resolved,User Authentication Error,US-West,Application Support
+INC-0032,2025-03-13 01:20,Proxy,Authentication Failure,High,173,Escalated,Application Port Blocked,US-East,Network Operations
+INC-0033,2025-02-27 17:01,Firewall,Firewall Block,Low,38,Resolved,Application Port Blocked,India,Security Operations
+INC-0034,2025-03-07 17:51,Switch,Application Connectivity,Medium,87,Escalated,ISP Issue,APAC,Cloud Operations
+INC-0035,2025-02-23 03:25,Switch,Authentication Failure,High,194,Resolved,Expired Certificate,US-West,Application Support
+INC-0036,2025-02-08 03:57,VPN Gateway,VPN Failure,Low,44,Resolved,Routing Table Issue,US-West,Cloud Operations
+INC-0037,2025-02-20 15:10,Firewall,Firewall Block,Critical,346,Resolved,User Authentication Error,Europe,Application Support
+INC-0038,2025-02-15 10:05,Proxy,Latency,Medium,136,Resolved,Policy Misconfiguration,India,Application Support
+INC-0039,2025-02-07 16:04,Firewall,Packet Loss,High,139,Resolved,Expired Certificate,US-East,Cloud Operations
+INC-0040,2025-04-10 05:17,VPN Gateway,Latency,Low,42,Closed,Device Resource Utilization,Europe,Security Operations
+INC-0041,2025-01-12 08:03,Proxy,Authentication Failure,Critical,201,Resolved,ACL Rule Conflict,US-East,Cloud Operations
+INC-0042,2025-04-13 08:05,VPN Gateway,VPN Failure,Medium,70,Escalated,ISP Issue,US-East,Cloud Operations
+INC-0043,2025-02-23 08:39,VPN Gateway,Routing Issue,Low,63,Resolved,ISP Issue,US-East,Security Operations
+INC-0044,2025-01-26 09:40,Router,Latency,Low,37,Escalated,ISP Issue,India,Application Support
+INC-0045,2025-02-02 01:00,Firewall,Authentication Failure,High,169,Escalated,ISP Issue,APAC,Application Support
+INC-0046,2025-01-14 21:52,Firewall,Firewall Block,Critical,448,Closed,Application Port Blocked,APAC,Application Support
+INC-0047,2025-01-26 22:46,Proxy,Authentication Failure,Medium,88,Resolved,ACL Rule Conflict,India,Network Operations
+INC-0048,2025-01-10 20:47,Router,Routing Issue,Low,41,Closed,User Authentication Error,US-East,Network Operations
+INC-0049,2025-02-06 19:15,Proxy,Application Connectivity,High,226,Resolved,Policy Misconfiguration,Europe,Security Operations
+INC-0050,2025-01-01 08:23,Firewall,Firewall Block,Medium,61,Resolved,Routing Table Issue,US-West,Network Operations
+INC-0051,2025-01-11 15:17,Load Balancer,Latency,Low,38,Resolved,ISP Issue,APAC,Network Operations
+INC-0052,2025-01-12 04:25,VPN Gateway,VPN Failure,Medium,102,Escalated,Policy Misconfiguration,Europe,Network Operations
+INC-0053,2025-03-09 04:42,Proxy,Latency,Medium,88,Escalated,ACL Rule Conflict,India,Application Support
+INC-0054,2025-03-21 20:09,Firewall,Firewall Block,Medium,113,Resolved,ACL Rule Conflict,APAC,Security Operations
+INC-0055,2025-01-03 21:37,Proxy,Authentication Failure,High,105,Resolved,Expired Certificate,US-East,Network Operations
+INC-0056,2025-01-14 12:53,Firewall,Firewall Block,Medium,68,Closed,Policy Misconfiguration,US-East,Security Operations
+INC-0057,2025-04-30 16:57,Load Balancer,Packet Loss,Medium,77,Resolved,Expired Certificate,Europe,Cloud Operations
+INC-0058,2025-02-03 07:46,VPN Gateway,Routing Issue,Low,35,Resolved,Application Port Blocked,Europe,Application Support
+INC-0059,2025-03-20 20:41,VPN Gateway,VPN Failure,Medium,70,Resolved,Expired Certificate,APAC,Security Operations
+INC-0060,2025-04-06 22:19,Load Balancer,Latency,Medium,51,Escalated,User Authentication Error,US-East,Application Support
+INC-0061,2025-01-28 21:31,VPN Gateway,VPN Failure,Medium,94,Resolved,Device Resource Utilization,Europe,Application Support
+INC-0062,2025-04-25 17:12,Router,Packet Loss,High,176,Resolved,Application Port Blocked,US-East,Cloud Operations
+INC-0063,2025-02-04 12:13,VPN Gateway,Packet Loss,Low,10,Resolved,Expired Certificate,US-West,Cloud Operations
+INC-0064,2025-04-15 20:32,Router,Latency,Low,33,Resolved,Routing Table Issue,US-West,Application Support
+INC-0065,2025-03-29 14:25,Router,Packet Loss,Medium,113,Resolved,ACL Rule Conflict,India,Application Support
+INC-0066,2025-02-12 00:20,Router,Latency,Low,53,Closed,Expired Certificate,US-West,Network Operations
+INC-0067,2025-04-22 18:04,Router,Application Connectivity,Medium,70,Closed,Device Resource Utilization,US-East,Cloud Operations
+INC-0068,2025-03-26 09:40,VPN Gateway,VPN Failure,Low,41,Resolved,ISP Issue,India,Application Support
+INC-0069,2025-02-24 00:51,Proxy,Authentication Failure,Medium,90,Closed,ISP Issue,US-East,Network Operations
+INC-0070,2025-03-20 04:41,Router,Application Connectivity,Medium,48,Closed,Policy Misconfiguration,APAC,Security Operations
+INC-0071,2025-04-05 23:41,Firewall,Firewall Block,Medium,75,Resolved,ACL Rule Conflict,US-West,Cloud Operations
+INC-0072,2025-02-20 03:10,Proxy,Packet Loss,Medium,99,Resolved,Expired Certificate,US-West,Application Support
+INC-0073,2025-02-27 13:08,Load Balancer,Authentication Failure,Low,59,Resolved,ISP Issue,US-East,Security Operations
+INC-0074,2025-02-10 07:23,Router,Latency,Medium,45,Escalated,ISP Issue,US-East,Application Support
+INC-0075,2025-02-13 01:31,Router,Packet Loss,Medium,64,Escalated,Routing Table Issue,US-West,Security Operations
+INC-0076,2025-02-01 12:25,VPN Gateway,VPN Failure,Medium,81,Closed,ACL Rule Conflict,India,Network Operations
+INC-0077,2025-03-02 18:31,Firewall,Firewall Block,Low,30,Resolved,Expired Certificate,Europe,Application Support
+INC-0078,2025-01-14 07:09,VPN Gateway,Packet Loss,Low,16,Escalated,Expired Certificate,Europe,Network Operations
+INC-0079,2025-03-14 01:41,Proxy,Authentication Failure,High,203,Resolved,User Authentication Error,India,Application Support
+INC-0080,2025-01-13 02:19,Load Balancer,Application Connectivity,High,180,Escalated,ISP Issue,Europe,Cloud Operations
+INC-0081,2025-02-28 08:20,Firewall,Firewall Block,High,235,Resolved,Application Port Blocked,APAC,Security Operations
+INC-0082,2025-02-22 22:41,Router,Authentication Failure,Low,35,Resolved,Policy Misconfiguration,US-West,Application Support
+INC-0083,2025-02-24 11:14,Switch,Application Connectivity,Medium,98,Resolved,Routing Table Issue,Europe,Cloud Operations
+INC-0084,2025-01-01 09:47,Load Balancer,Application Connectivity,Medium,92,Resolved,ISP Issue,Europe,Security Operations
+INC-0085,2025-02-03 09:06,Load Balancer,Latency,High,197,Closed,User Authentication Error,US-West,Application Support
+INC-0086,2025-01-08 19:09,Switch,Packet Loss,Critical,391,Resolved,ISP Issue,US-East,Security Operations
+INC-0087,2025-04-25 22:56,Router,Packet Loss,Low,43,Resolved,Expired Certificate,US-West,Cloud Operations
+INC-0088,2025-04-30 16:47,Firewall,Firewall Block,Low,38,Closed,Policy Misconfiguration,India,Application Support
+INC-0089,2025-01-01 02:17,Firewall,Routing Issue,Medium,78,Resolved,ACL Rule Conflict,US-East,Security Operations
+INC-0090,2025-04-16 09:52,Switch,Packet Loss,Medium,96,Resolved,Policy Misconfiguration,Europe,Security Operations
+INC-0091,2025-04-05 15:01,Proxy,Latency,Medium,67,Closed,ISP Issue,Europe,Network Operations
+INC-0092,2025-01-09 01:16,VPN Gateway,Packet Loss,Low,37,Resolved,Routing Table Issue,India,Cloud Operations
+INC-0093,2025-04-02 22:20,Router,Latency,Critical,265,Resolved,Policy Misconfiguration,APAC,Network Operations
+INC-0094,2025-01-14 15:45,VPN Gateway,VPN Failure,High,156,Closed,ACL Rule Conflict,India,Application Support
+INC-0095,2025-04-13 23:19,Proxy,Routing Issue,Medium,97,Resolved,ISP Issue,India,Cloud Operations
+INC-0096,2025-04-11 19:05,Load Balancer,Packet Loss,Medium,79,Resolved,ACL Rule Conflict,US-West,Security Operations
+INC-0097,2025-02-11 05:27,Firewall,Packet Loss,Low,45,Resolved,Device Resource Utilization,APAC,Network Operations
+INC-0098,2025-03-05 22:28,Firewall,Firewall Block,Low,37,Resolved,ISP Issue,US-West,Application Support
+INC-0099,2025-04-19 21:48,Firewall,Packet Loss,Medium,68,Resolved,Device Resource Utilization,India,Cloud Operations
+INC-0100,2025-02-03 06:28,VPN Gateway,Latency,Medium,53,Resolved,ISP Issue,US-West,Security Operations
+INC-0101,2025-02-20 08:15,Load Balancer,Latency,High,144,Escalated,ISP Issue,US-East,Application Support
+INC-0102,2025-03-02 07:53,VPN Gateway,VPN Failure,Low,31,Closed,Routing Table Issue,US-East,Cloud Operations
+INC-0103,2025-03-16 06:59,Firewall,Firewall Block,Low,43,Resolved,Routing Table Issue,APAC,Security Operations
+INC-0104,2025-04-10 21:00,Firewall,Packet Loss,Medium,138,Escalated,Routing Table Issue,US-West,Network Operations
+INC-0105,2025-01-05 19:46,Proxy,Latency,Medium,171,Resolved,Policy Misconfiguration,India,Application Support
+INC-0106,2025-03-21 09:04,VPN Gateway,Application Connectivity,Medium,109,Resolved,Application Port Blocked,APAC,Application Support
+INC-0107,2025-01-20 20:34,VPN Gateway,VPN Failure,Medium,93,Resolved,User Authentication Error,Europe,Cloud Operations
+INC-0108,2025-03-27 09:26,Firewall,Packet Loss,Critical,200,Resolved,Routing Table Issue,Europe,Application Support
+INC-0109,2025-01-26 12:46,VPN Gateway,VPN Failure,High,222,Closed,ISP Issue,US-East,Application Support
+INC-0110,2025-04-16 02:25,Firewall,Firewall Block,Medium,84,Escalated,Routing Table Issue,Europe,Security Operations
+INC-0111,2025-04-27 12:05,Firewall,Firewall Block,Low,23,Escalated,Routing Table Issue,APAC,Security Operations
+INC-0112,2025-01-21 16:10,Firewall,Firewall Block,Medium,75,Resolved,Expired Certificate,Europe,Application Support
+INC-0113,2025-01-17 01:58,Switch,Routing Issue,High,209,Resolved,Policy Misconfiguration,APAC,Application Support
+INC-0114,2025-03-21 22:52,VPN Gateway,VPN Failure,Critical,299,Resolved,ISP Issue,APAC,Application Support
+INC-0115,2025-01-28 01:25,Load Balancer,Authentication Failure,High,193,Resolved,ACL Rule Conflict,India,Network Operations
+INC-0116,2025-04-03 06:02,Firewall,Firewall Block,Low,30,Escalated,Policy Misconfiguration,India,Network Operations
+INC-0117,2025-02-09 20:26,Router,Packet Loss,Medium,56,Escalated,ISP Issue,Europe,Application Support
+INC-0118,2025-03-06 14:11,Firewall,Application Connectivity,Medium,75,Resolved,Application Port Blocked,Europe,Security Operations
+INC-0119,2025-01-23 15:25,Firewall,Packet Loss,High,189,Resolved,User Authentication Error,India,Application Support
+INC-0120,2025-02-26 16:32,Proxy,Latency,Low,25,Resolved,Policy Misconfiguration,US-West,Network Operations
+INC-0121,2025-04-07 16:57,Switch,Application Connectivity,Medium,83,Resolved,Policy Misconfiguration,US-East,Network Operations
+INC-0122,2025-04-24 15:18,Firewall,Firewall Block,Low,31,Resolved,ISP Issue,US-East,Cloud Operations
+INC-0123,2025-02-05 14:09,Router,Authentication Failure,High,231,Escalated,Application Port Blocked,US-West,Cloud Operations
+INC-0124,2025-02-10 11:02,VPN Gateway,Authentication Failure,Medium,123,Resolved,ACL Rule Conflict,US-West,Cloud Operations
+INC-0125,2025-02-03 03:49,Load Balancer,Application Connectivity,Medium,58,Resolved,Routing Table Issue,Europe,Network Operations
+INC-0126,2025-03-22 12:47,Router,Latency,Critical,406,Resolved,ACL Rule Conflict,India,Security Operations
+INC-0127,2025-03-20 23:03,Router,Latency,Medium,98,Escalated,Device Resource Utilization,India,Cloud Operations
+INC-0128,2025-01-05 07:09,Router,Application Connectivity,Low,38,Escalated,ACL Rule Conflict,Europe,Cloud Operations
+INC-0129,2025-01-03 01:00,VPN Gateway,VPN Failure,Low,36,Escalated,Routing Table Issue,India,Network Operations
+INC-0130,2025-01-29 13:37,Router,Authentication Failure,Medium,115,Escalated,User Authentication Error,US-West,Cloud Operations
+INC-0131,2025-04-13 07:45,VPN Gateway,Authentication Failure,High,184,Closed,Expired Certificate,US-East,Security Operations
+INC-0132,2025-02-04 12:51,Router,Routing Issue,High,186,Resolved,Policy Misconfiguration,APAC,Cloud Operations
+INC-0133,2025-04-04 15:15,VPN Gateway,Authentication Failure,Medium,38,Resolved,Policy Misconfiguration,US-East,Network Operations
+INC-0134,2025-01-21 01:58,Firewall,Packet Loss,Low,42,Resolved,ISP Issue,US-West,Application Support
+INC-0135,2025-02-23 19:11,Firewall,Firewall Block,Medium,65,Escalated,Device Resource Utilization,US-East,Cloud Operations
+INC-0136,2025-04-24 23:50,Switch,Application Connectivity,Low,25,Escalated,Policy Misconfiguration,Europe,Application Support
+INC-0137,2025-01-23 07:06,Router,Application Connectivity,Critical,408,Resolved,Policy Misconfiguration,US-East,Cloud Operations
+INC-0138,2025-05-01 08:45,Firewall,Application Connectivity,Critical,364,Resolved,ACL Rule Conflict,APAC,Cloud Operations
+INC-0139,2025-04-23 16:00,VPN Gateway,Latency,Medium,99,Resolved,ISP Issue,US-West,Security Operations
+INC-0140,2025-01-25 12:21,Load Balancer,Application Connectivity,Critical,298,Resolved,ACL Rule Conflict,APAC,Application Support
+INC-0141,2025-02-25 23:14,Load Balancer,Packet Loss,High,151,Resolved,ISP Issue,Europe,Network Operations
+INC-0142,2025-01-19 01:01,Firewall,Authentication Failure,Critical,165,Resolved,User Authentication Error,India,Security Operations
+INC-0143,2025-03-23 01:44,Firewall,Application Connectivity,Low,47,Resolved,Expired Certificate,APAC,Cloud Operations
+INC-0144,2025-04-15 17:57,Firewall,Firewall Block,High,197,Resolved,ACL Rule Conflict,US-East,Security Operations
+INC-0145,2025-04-27 20:05,Firewall,Firewall Block,Low,55,Resolved,Application Port Blocked,US-East,Security Operations
+INC-0146,2025-03-24 06:18,VPN Gateway,VPN Failure,High,203,Resolved,Routing Table Issue,Europe,Cloud Operations
+INC-0147,2025-04-08 11:58,VPN Gateway,VPN Failure,Medium,91,Resolved,Application Port Blocked,India,Network Operations
+INC-0148,2025-02-25 16:49,Firewall,Routing Issue,Medium,82,Resolved,Application Port Blocked,US-East,Security Operations
+INC-0149,2025-01-22 13:00,Load Balancer,Application Connectivity,High,250,Resolved,Device Resource Utilization,US-East,Network Operations
+INC-0150,2025-03-04 22:50,VPN Gateway,Latency,Medium,106,Closed,Routing Table Issue,APAC,Cloud Operations

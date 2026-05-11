@@ -1,0 +1,8 @@
+issue_category,incident_count,avg_resolution_time_minutes
+Firewall Block,25,107.0
+Packet Loss,25,105.8
+Latency,24,113.33
+Authentication Failure,23,126.04
+VPN Failure,21,99.57
+Application Connectivity,20,138.3
+Routing Issue,12,96.25
