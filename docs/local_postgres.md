@@ -52,7 +52,12 @@ The SQL file returns category, severity, and category-by-severity counts
 and average resolution times. The Python parity tests compare the three
 SELECT queries to published summary CSVs **using SQLite in memory**. They
 do not execute PostgreSQL, so both the Docker commands and the offline
-tests are needed to validate different parts of the project.\n\nThe PostgreSQL smoke-check query should return one row with **four `t`\n(boolean true) values**: 150 source rows, unique IDs, preserved daily-view\ncounts, and preserved resolution-minute totals. Any `f` requires investigation.\n`ON_ERROR_STOP=1` stops on SQL errors but **does not fail when a boolean\nassertion is false**; review the output rather than treating exit status alone\nas proof of passing data checks.
+tests are needed to validate different parts of the project.\n\nThe PostgreSQL smoke-check script prints four boolean checks and then runs a
+read-only PL/pgSQL assertion block. With `-v ON_ERROR_STOP=1`, a failed
+fixture invariant raises an exception and causes `psql` to exit nonzero;
+a passing run emits `All four synthetic fixture smoke checks passed`.
+This validates the imported fixture and daily summary, not the full reporting
+query parity or any production environment.
 
 To stop the local service without deleting its persistent database volume:
 
