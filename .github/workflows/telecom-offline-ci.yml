@@ -1,0 +1,30 @@
+# Offline checks for the checked-in simulated incident dataset.
+# No database, Docker, credentials, cloud deployment, or third-party Python packages.
+name: Telecom offline data and SQL checks
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tests/**"
+      - "data/network_incidents.csv"
+      - "results/**"
+      - "sql/**"
+      - ".github/workflows/telecom-offline-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate CSV contracts and SQL reporting parity
+        run: python -m unittest discover -s tests -v
