@@ -52,7 +52,9 @@ The SQL file returns category, severity, and category-by-severity counts
 and average resolution times. The Python parity tests compare the three
 SELECT queries to published summary CSVs **using SQLite in memory**. They
 do not execute PostgreSQL, so both the Docker commands and the offline
-tests are needed to validate different parts of the project.\n\nThe PostgreSQL smoke-check script prints four boolean checks and then runs a
+tests are needed to validate different parts of the project.
+
+The PostgreSQL smoke-check script prints four boolean checks and then runs a
 read-only PL/pgSQL assertion block. With `-v ON_ERROR_STOP=1`, a failed
 fixture invariant raises an exception and causes `psql` to exit nonzero;
 a passing run emits `All four synthetic fixture smoke checks passed`.
