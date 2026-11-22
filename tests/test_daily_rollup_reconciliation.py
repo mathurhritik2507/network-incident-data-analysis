@@ -4,6 +4,7 @@ Uses only the checked-in simulated CSV and SQLite; this does not execute
 PostgreSQL or validate the PostgreSQL view definition.
 """
 import csv
+from collections import defaultdict
 import sqlite3
 import unittest
 from pathlib import Path
@@ -42,6 +43,20 @@ class TestDailyRollupReconciliation(unittest.TestCase):
                 "GROUP BY incident_day, issue_category, severity"
             ).fetchall()
             self.assertTrue(groups, "Expected nonempty daily groups")
+            expected = defaultdict(lambda: [0, 0])
+            for row in records:
+                key = (row["date"][:10], row["issue_category"], row["severity"])
+                expected[key][0] += 1
+                expected[key][1] += int(row["resolution_time_minutes"])
+            actual = {
+                (day, category, severity): (count, minutes)
+                for day, category, severity, count, minutes in groups
+            }
+            self.assertEqual(
+                actual,
+                {key: tuple(value) for key, value in expected.items()},
+                "Daily SQL groups must match independently aggregated CSV rows",
+            )
             self.assertEqual(sum(group[3] for group in groups), len(records))
             self.assertEqual(
                 sum(group[4] for group in groups),
