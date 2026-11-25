@@ -1,0 +1,21 @@
+# Local-only PostgreSQL for simulated telecom incidents. No cloud services.
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: incident_demo
+      POSTGRES_DB: incident_demo
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your shell before running Docker Compose}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - incident_pgdata:/var/lib/postgresql/data
+      - ./data:/workspace/data:ro
+      - ./sql:/workspace/sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U incident_demo -d incident_demo"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  incident_pgdata:
